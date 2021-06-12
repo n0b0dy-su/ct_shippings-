@@ -8,7 +8,7 @@
 
 En el archivo [config/db.js](./src/config/db.js) se encuentra la configuración de la base de datos en especifico las credenciales y parámetros de conexión, este ya cuenta con parámetros por defecto pero deben ser editados en caso de contar con credenciales o parámetros diferentes, su estructura es la siguiente
 
-```json
+```javascript
 {
 	host: "", 
     port: "3306", 
