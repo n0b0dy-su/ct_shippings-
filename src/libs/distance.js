@@ -27,6 +27,4 @@ function calc(currentLat,currentLong,endLat,endLong){
     return (earthRadio * c).toFixed(2);
 }
 
-//console.log(calc(19.252402,-103.720323,20.674894,-103.405013));
-
 module.exports = calc;
